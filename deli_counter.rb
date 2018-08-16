@@ -8,4 +8,5 @@ def line(katz_deli)
     katz_deli.each_with_index.map do |name, index|
     "The line is currently #{index + 1}. #{name}"
   end 
+  end 
 end 
